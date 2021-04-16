@@ -22,5 +22,6 @@ git add index.html
 # Para añadir todos los archivos ponemos git add seguido de un punto
 git add .
 
-
+# Para hacer commmit con un mensaje
+git commit -m "Este es el primer commit del proyecto"
 
