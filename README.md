@@ -25,3 +25,12 @@ git add .
 # Para hacer commmit con un mensaje
 git commit -m "Este es el primer commit del proyecto"
 
+# Para borrar el commit que se acaba de hacer con git rm --cached y el nombre del archivo que quieres quitar del commit
+git rm --cached index.html
+
+# Para ver el historial de commits
+git log
+
+# Para ver el estado, la cantidad de archivos nuevos, las lineas que agregaste a los commits que hiciste, etc
+git log --stat
+

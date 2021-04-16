@@ -1,0 +1,7 @@
+# Esto es para que git ignore algunos archivos que no quieres que se guarden
+
+# Ignora todos los archivos .psd
+*.psd
+
+# Se puede poner el nombre del archivo con su extension
+nombrearchivo.txt
