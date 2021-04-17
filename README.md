@@ -39,3 +39,12 @@ git log --oneline
 
 # Para regresar al commit que se hizo tiempo atras
 git checkout numerodelcommitaregresar
+
+# Para ver las ramas que tenemos en el proyecto
+git branch
+
+# Para cambiar de rama
+git checkout nombredelarama
+
+# Para crear una rama
+git checkout -b nombredelarama
