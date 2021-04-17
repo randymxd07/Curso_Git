@@ -34,3 +34,8 @@ git log
 # Para ver el estado, la cantidad de archivos nuevos, las lineas que agregaste a los commits que hiciste, etc
 git log --stat
 
+# Para mostrar los commits en una sola linea
+git log --oneline
+
+# Para regresar al commit que se hizo tiempo atras
+git checkout numerodelcommitaregresar
