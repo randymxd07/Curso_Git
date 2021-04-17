@@ -60,3 +60,6 @@ ssh-keygen -t rsa -b 4096 -C "randym0624@gmail.com"
 
 # Para añadir el origen de mi repositorio de github
 git remote add origin git@github.com:randymxd06/curso_de_git.git
+
+# Para añadir el commit hecho en la consola a github
+git push -u origin master
