@@ -54,3 +54,7 @@ git merge nombre_de_la_rama_a_unir
 
 # Para eliminar una rama
 git branch -d nombre_de_la_rama
+
+# Para generar la llave con el correo de gitub
+ssh-keygen -t rsa -b 4096 -C "randym0624@gmail.com"
+
