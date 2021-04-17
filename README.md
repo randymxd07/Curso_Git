@@ -38,13 +38,19 @@ git log --stat
 git log --oneline
 
 # Para regresar al commit que se hizo tiempo atras
-git checkout numerodelcommitaregresar
+git checkout numero_del_commit_a_regresar
 
 # Para ver las ramas que tenemos en el proyecto
 git branch
 
 # Para cambiar de rama
-git checkout nombredelarama
+git checkout nombre_de_la_rama
 
 # Para crear una rama
-git checkout -b nombredelarama
+git checkout -b nombre_de_la_rama
+
+# Para unir las ramas un ejemplo a la master
+git merge nombre_de_la_rama_a_unir
+
+# Para eliminar una rama
+git branch -d nombre_de_la_rama
