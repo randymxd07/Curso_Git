@@ -55,6 +55,8 @@ git merge nombre_de_la_rama_a_unir
 # Para eliminar una rama
 git branch -d nombre_de_la_rama
 
-# Para generar la llave con el correo de gitub
+# Para generar la llave ssh con el correo de github, el me lo guarda en la siguiente ruta: C:\Users\randy\.ssh
 ssh-keygen -t rsa -b 4096 -C "randym0624@gmail.com"
 
+# Para añadir el origen de mi repositorio de github
+git remote add origin git@github.com:randymxd06/curso_de_git.git
