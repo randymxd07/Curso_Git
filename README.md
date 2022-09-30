@@ -1,29 +1,56 @@
-# Para configurar el usuario que va a trabajar con git
-git config --global user.name "randymxd06"
+Para configurar el usuario que va a trabajar con git:
 
-# Para verificar el usuario que está trabajando con git
+```
+git config --global user.name "nombre_de_usuario"
+```
+
+Para verificar el usuario que está trabajando con git:
+
+```
 git config user.name
+```
 
-# Para configurar el correo electrónico a usar con git
+Para configurar el correo electrónico a usar con git:
+
+```
 git config --global user.email "randym0624@gmail.com"
+```
 
-# Para verificar el correo que está trabajando con git
+Para verificar el correo que está trabajando con git:
+
+```
 git config user.email
+```
 
-# Para iniciar el proyecto
+Para iniciar el proyecto:
+
+```
 git init
+```
 
-# Para ver el estado en que se encuentran los archivos
+Para ver el estado en que se encuentran los archivos:
+
+```
 git status
+```
 
-# Para añadir un archivo ponemos git add seguido del nombre del archivo
+Para añadir un archivo ponemos git add seguido del nombre del archivo:
+
+```
 git add index.html
+```
 
-# Para añadir todos los archivos ponemos git add seguido de un punto
+Para añadir todos los archivos ponemos git add seguido de un punto:
+
+```
 git add .
+```
 
-# Para hacer commmit con un mensaje
+Para hacer commmit con un mensaje:
+
+```
 git commit -m "Este es el primer commit del proyecto"
+```
 
 # Para borrar el commit que se acaba de hacer con git rm --cached y el nombre del archivo que quieres quitar del commit
 git rm --cached index.html
